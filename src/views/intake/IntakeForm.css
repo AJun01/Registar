@@ -1,0 +1,98 @@
+.intake-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.intake-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Dark text color for heading */
+}
+
+.intake-form input {
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.intake-form input:focus {
+  border-color: #8FB9A8; /* Calming green border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.intake-form button {
+  background-color: #e67e22; /* Orange button */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.intake-form button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.intake-form input.error-input {
+  border-color: red;
+}
+
+.auth-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.auth-buttons p {
+  margin-bottom: 10px;
+}
+
+.google-btn,
+.apple-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.apple-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.google-btn img,
+.apple-btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

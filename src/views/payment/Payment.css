@@ -1,0 +1,46 @@
+/* src/components/Payment.css */
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.payment-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+#payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#payment-element {
+  margin-bottom: 20px;
+}
+
+#submit {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+#payment-message {
+  color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}

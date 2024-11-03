@@ -1,0 +1,106 @@
+/* TrainingProgramSelection.css */
+.program-selection-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background */
+  border-radius: 8px;
+}
+
+.program-selection-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.program-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.program-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.program-card:hover {
+  border-color: #8FB9A8; /* Calming green on hover */
+}
+
+.program-card input[type="radio"] {
+  margin: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-content h3 {
+  margin: 10px 20px 5px 20px;
+  color: #2c3e50;
+}
+
+.card-content p {
+  margin: 0 20px 20px 20px;
+  color: #34495e;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.program-selection-form button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.program-selection-form button:hover {
+  background-color: #d35400;
+}
+
+@media screen and (min-width: 600px) {
+  .program-options {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .program-card {
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .program-card input[type="radio"] {
+    align-self: flex-start;
+    margin: 10px;
+  }
+
+  .card-content img {
+    height: 150px;
+  }
+}

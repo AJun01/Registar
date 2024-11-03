@@ -1,0 +1,105 @@
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.top-section {
+  background-color: #8FB9A8; /* Calming green */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  height: 50vh; /* Top half takes 50% of the viewport */
+}
+
+.icon-container {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensures that the image stays within the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.language-btn {
+  background-color: #6D9F85;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.bottom-section {
+  background-color: white; /* White background for the bottom section */
+  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  height: 50vh; /* Bottom half takes 50% of the viewport */
+}
+
+.todo-list {
+  text-align: center;
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  margin-left: 10%; /* Adjusted for better alignment */
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #bdc3c7;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.bullet.orange {
+  background-color: #e67e22; /* Orange color for the active step */
+}
+
+.register-btn {
+  background-color: #e67e22; /* Orange button */
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+}

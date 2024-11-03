@@ -1,0 +1,56 @@
+/* src/components/UploadCertificate.css */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.upload-form input[type="file"] {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.file-info {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.file-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.upload-form button {
+  background-color: #e67e22; /* Orange button */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+  background-color: #d35400;
+}
