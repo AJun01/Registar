@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors'); // Import the cors package
 const Stripe = require('stripe');
-const stripe = Stripe('sk_test_4eC39HqLyjWDarjtT1zdp7dc'); // Replace with your actual Stripe test secret key
+const stripe = Stripe('fakekey'); // Replace with your actual Stripe test secret key
 
 app.use(express.static('public'));
 app.use(express.json());

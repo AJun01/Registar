@@ -11,7 +11,7 @@ import {
 } from '@stripe/react-stripe-js';
 
 // Replace with your actual Stripe test publishable key
-const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+const stripePromise = loadStripe('fakekey');
 
 function Payment() {
   const navigate = useNavigate();
